@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.cashbookapp.Controller"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <top>
+        <Label text="Cash E-Book" style="-fx-font-size: 24px; -fx-padding: 10;" BorderPane.alignment="CENTER"/>
+    </top>
+
+    <center>
+        <TableView fx:id="table" prefHeight="400" prefWidth="600">
+            <columns>
+                <TableColumn fx:id="dateCol" text="Date" prefWidth="100" />
+                <TableColumn fx:id="categoryCol" text="Category" prefWidth="100" />
+                <TableColumn fx:id="orgCol" text="Organization" prefWidth="100" />
+                <TableColumn fx:id="particularsCol" text="Particulars" prefWidth="150" />
+                <TableColumn fx:id="amountCol" text="Amount" prefWidth="100" />
+                <TableColumn fx:id="typeCol" text="Type" prefWidth="50" />
+            </columns>
+        </TableView>
+    </center>
+
+    <bottom>
+        <VBox spacing="10" style="-fx-padding: 10;">
+            <Label fx:id="balanceLabel" text="Current Balance: $0.00" style="-fx-font-size: 16px;" />
+            <HBox spacing="10" alignment="center">
+                <Button text="Add" onAction="#onAdd" />
+                <Button text="Edit" onAction="#onEdit" />
+                <Button text="Delete" onAction="#onDelete" />
+                <Button text="Clear All" onAction="#onClearAll" />
+                <Button text="Save" onAction="#onSave" />
+            </HBox>
+        </VBox>
+    </bottom>
+
+</BorderPane>
+
