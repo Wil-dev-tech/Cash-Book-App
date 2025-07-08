@@ -1,4 +1,4 @@
-These days, with the ever-changing economy, personal finance has never been so important to one's daily life. As someone with a heavy accounting background (2 accounting internships), I have noticed many benefits that come awith ccounting like:
+These days, with the ever-changing economy, personal finance has never been so important to one's daily life. As someone with a heavy accounting background (2 accounting internships), I have noticed many benefits that come with accounting, like:
 - Financial Literacy
 - Importance of record keeping
 - Structure and Order
